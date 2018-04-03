@@ -2,7 +2,6 @@
 namespace Jim\Aliyun;
 ini_set("display_errors", "on");
 
-require_once __DIR__ . '/../vendor/autoload.php';
 
 use Aliyun\Core\Config;
 use Aliyun\Core\Profile\DefaultProfile;

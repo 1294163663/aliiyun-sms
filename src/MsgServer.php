@@ -2,9 +2,6 @@
 namespace Jim\Aliyun;
 ini_set("display_errors", "on");
 
-require_once __DIR__ . '/../vendor/autoload.php';
-
-
 use Aliyun\TokenGetterForAlicom;
 use Aliyun\TokenForAlicom;
 use Aliyun\Core\Config;
