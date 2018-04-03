@@ -9,13 +9,13 @@
 require_once "./vendor/autoload.php";
 
 $config = [
-    'signature' => '飞宇智能', // 签名
-    'key' => 'LTAIyc6DuMRmXkwl',
-    'secret' => 'OPeIWDQx8g4iFvz6DrtZdON3HfZyit',
-    'SmsReport' => 'Alicom-Queue-1447497849932068-SmsReport',
-    'SmsUp' => 'Alicom-Queue-1447497849932068-SmsUp',
+    'signature' => '签名', // 签名
+    'key' => 'access key',
+    'secret' => 'access secret',
+    'SmsReport' => 'SmsReport id',
+    'SmsUp' => 'SmsUp id',
 ];
-$code = 'SMS_129741677';
+$code = 'model';
 
 $res = \Jim\Aliyun\SmsServer::sendSms('15384499806',$code,
     ['place'=>'asd', 'type'=>'das', 'log'=>'log'], $config);

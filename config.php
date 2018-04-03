@@ -11,4 +11,6 @@ return [
     'key' => env('ALIYUN_SMS_AK'),
     'secret' => env('ALIYUN_SMS_AS'),
     'queue' => env('ALIYUN_SMS_QUEUE'),
+    'SmsReport' => env('ALIYUN_SMS_QUEUE_SmsReport'),
+    'SmsUp' => env('ALIYUN_SMS_QUEUE_SmsUp'),
 ];
