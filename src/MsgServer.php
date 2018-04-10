@@ -98,7 +98,7 @@ class MsgServer
             }
             catch (MnsException $e)
             {
-                if ($e->getMnsErrorCode() == 404) {
+                if ($e->getMnsErrorCode() == 'MessageNotExist') {
                     return false;
                 }
                 $i++;
